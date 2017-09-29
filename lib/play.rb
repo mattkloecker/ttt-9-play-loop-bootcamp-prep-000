@@ -37,17 +37,10 @@ end
 
 # Define your play method below
 
-def finish()
-  puts "Game over! You lose! Suh?";
-  response = gets.strip;
-  puts response + "?" + " Ya done lost!"
-end
-
 def play(board)
   counter = 0
   while counter < 9
     turn(board);
     counter += 1
   end
-  finish()
 end
