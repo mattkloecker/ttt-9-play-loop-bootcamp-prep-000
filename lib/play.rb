@@ -43,4 +43,5 @@ def play(board)
     turn(board);
     counter += 1
   end
+  puts "Game over! You lose! LOL!"
 end
