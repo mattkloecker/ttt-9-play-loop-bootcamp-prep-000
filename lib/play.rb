@@ -40,7 +40,7 @@ end
 def finish()
   puts "Game over! You lose dude! Suh?";
   response = gets.strip;
-  puts response "?" + " Ya done lost!"
+  puts response + "?" + " Ya done lost!"
 end
 
 def play(board)
