@@ -41,7 +41,8 @@ def finish()
   puts "Game over! You lose dude! Suh?";
   response = gets.strip;
   puts response + "Just Stop!"
-  
+end  
+
 def play(board)
   counter = 0
   while counter < 9
