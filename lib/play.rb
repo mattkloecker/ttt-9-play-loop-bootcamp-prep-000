@@ -40,8 +40,8 @@ end
 def finish()
   puts "Game over! You lose dude! Suh?";
   response = gets.strip;
-  puts response + "Just Stop!"
-end  
+  puts response"?" + " Ya done lost!"
+end
 
 def play(board)
   counter = 0
