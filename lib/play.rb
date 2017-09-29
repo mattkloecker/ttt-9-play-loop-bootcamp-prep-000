@@ -38,7 +38,7 @@ end
 # Define your play method below
 
 def finish()
-  puts "Game over! You lose dude! Suh?";
+  puts "Game over! You lose! Suh?";
   response = gets.strip;
   puts response + "?" + " Ya done lost!"
 end
